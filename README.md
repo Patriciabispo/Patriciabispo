@@ -17,13 +17,13 @@ CREATE TABLE Funcionarios (
 
 -- Inserir dados na tabela Unidades
 INSERT INTO Funcionario (nome, localizacao) VALUES
-('Unidade A', 'Rua 1, Bairro A'),
-('Unidade B', 'Rua 2, Bairro B');
+(Tudo gostoso, Av. Paulista 2295 , São Paulo, Bela Vista'),
+('Saboroso', Tv. Casalbuono 120, Vila Guilherme');
 
 -- Inserir dados na tabela Funcionários
-INSERT INTO Funcionarios (nome, cargo, unidade_id) VALUES
+INSERT INTO Funcionarios (João, gerente, Bela Vista) VALUES
 ('João Silva', 'Gerente', 1),
-('Maria Oliveira', 'Assistente', 1),
+('Maria Oliveira', 'Ajudante', 1),
 ('Carlos Pereira', 'Analista', 2);
 ’m interested in ...
 - 🌱 I’m currently learning ...
