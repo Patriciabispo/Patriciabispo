@@ -14,14 +14,18 @@ CREATE TABLE Funcionarios (
     unidade_id INT,
     FOREIGN KEY (unidade_id) REFERENCES Unidades(id) ON DELETE CASCADE
 );
+INSERT INTO Unidades (
+    UnidadeID INT PRIMARY KEY AUTO_INCREMENT,
+    Nome (Tudo gostoso) VARCHAR(100) NOT NULL,
+    Endereco (Av. Paulista 2295 , São Paulo, Bela Vista'),
+VARCHAR(255),
+    Telefone 112554-2876,
+    HorarioAbertura 12:00TIME,
+    HorarioFechamento 19:00TIME
 
--- Inserir dados na tabela Unidades
-INSERT INTO Unidade (Tudo gostoso) VALUES
-(Tudo gostoso, Av. Paulista 2295 , São Paulo, Bela Vista'),
 
 
-
-CREATE TABLE Funcionarios (
+Funcionarios (
     FuncionarioID INT PRIMARY KEY AUTO_INCREMENT,
     Unidade Bela Vista ID INT,
     Nome João VARCHAR(100) NOT NULL,
@@ -32,7 +36,7 @@ CREATE TABLE Funcionarios (
     Salario DECIMAL(6.000,00);
     FOREIGN KEY (UnidadeID) REFERENCES Unidades(UnidadeID)
   
-  CREATE TABLE Funcionarios
+  Funcionarios
     FuncionarioID INT PRIMARY KEY AUTO_INCREMENT,
     Unidade Bela Vista ID INT,
     Nome Rodrigo VARCHAR(100) NOT NULL,
@@ -43,7 +47,7 @@ CREATE TABLE Funcionarios (
     Salario DECIMAL(2.500,00);
     FOREIGN KEY (UnidadeID) REFERENCES Unidades(UnidadeID)
 );
-CREATE TABLE Funcionarios
+ Funcionarios
     FuncionarioID INT PRIMARY KEY AUTO_INCREMENT,
     Unidade Bela Vista ID INT,
     Nome Maria VARCHAR(100) NOT NULL,
@@ -54,7 +58,7 @@ CREATE TABLE Funcionarios
     Salario DECIMAL(2.500,00);
     FOREIGN KEY (UnidadeID) REFERENCES Unidades(UnidadeID)
 );
-CREATE TABLE Funcionarios
+ Funcionarios
     FuncionarioID INT PRIMARY KEY AUTO_INCREMENT,
     Unidade Bela Vista ID INT,
     Nome Lucas VARCHAR(100) NOT NULL,
@@ -65,7 +69,7 @@ CREATE TABLE Funcionarios
     Salario DECIMAL(2.000,00);
     FOREIGN KEY (UnidadeID) REFERENCES Unidades(UnidadeID)
 );
-CREATE TABLE Funcionarios
+ Funcionarios
     FuncionarioID INT PRIMARY KEY AUTO_INCREMENT,
     Unidade Bela Vista ID INT,
     Nome Allana VARCHAR(100) NOT NULL,
